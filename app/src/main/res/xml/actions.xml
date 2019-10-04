@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actions>
+
+    <action intentName="actions.intent.OPEN_APP_FEATURE" >
+
+        <fulfillment
+                fulfillmentMode="actions.fulfillment.SLICE"
+                urlTemplate="content://com.octo.appactionsapp/{featureName}">
+            <parameter-mapping intentParameter="feature" urlParameter="featureName" required="true"/>
+        </fulfillment>
+
+        <fulfillment
+                fulfillmentMode="actions.fulfillment.DEEPLINK"
+                urlTemplate="https://www.my.url.fr/open{?featureName}">
+            <parameter-mapping intentParameter="feature" urlParameter="featureName"/>
+        </fulfillment>
+
+    </action>
+
+</actions>

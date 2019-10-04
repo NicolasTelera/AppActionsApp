@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">AppActionsApp</string>
+
+    <string name="click_to_open_app">Click to open app</string>
+
+    <string name="feature_1">feature 1</string>
+    <string name="feature_2">feature 2</string>
+    <string name="feature_3">feature 3</string>
+
+    <string name="title_feature_1">title 1</string>
+    <string name="title_feature_2">title 2</string>
+    <string name="title_feature_3">title 3</string>
+
+    <string name="subtitle_feature_1">this is feature 1</string>
+    <string name="subtitle_feature_2">this is feature 2</string>
+    <string name="subtitle_feature_3">this is feature 3</string>
+</resources>
